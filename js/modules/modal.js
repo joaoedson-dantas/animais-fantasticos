@@ -24,7 +24,6 @@ export default class initModal {
 
   // fecha o modal ao clicar ao lado de fora
   cliqueForaModal(event) {
-    console.log(event.target);
     if (event.target === this.containerModal) {
       this.toggleModal();
     }
